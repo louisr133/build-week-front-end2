@@ -1,0 +1,274 @@
+.App {
+    text-align: center;
+
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+ 
+
+  .appNav {
+      display: flex;
+      justify-content: flex-end;
+      height: 50px;
+      background-color: #24292E;
+      border-bottom: 1px solid #708090;
+      margin-bottom: 15px;
+      
+      a {
+          text-decoration: none;
+          color: white;
+          margin: 15px 15px 0 0;
+      }
+   
+  }
+
+  .techNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: #24292E;
+    
+    a {
+        text-decoration: none;
+        margin: 15px 15px 0 0;
+    }
+    a:visited {
+        color: #24292E;
+    }
+
+    a.active {
+        font-size: 20px;
+        color: #D24050;
+        text-decoration: none;
+    }
+
+  }
+//login
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginForm {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px 50px 50px 50px;
+    border-radius: 5px;
+
+    h4 {
+        font-size: 15px;
+        text-align: left;
+    }
+    input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #d1d5da;
+        border-radius: 3px;
+        box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    }
+}
+
+.loginButton {
+    border-radius: 5px;
+    color: white; 
+    font-size: 15px;
+    background-color: #28A745;
+    margin-top: 15px;
+    padding: 8px;
+}
+
+.listingContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+        padding: 30px 50px;
+        // border: 1px solid black;
+        border: 1px solid #4C3C1B;
+        background-color: white;
+        border-radius: 5px;
+        margin: 20px;
+
+        .buttons{
+            .deleteButton {
+                margin: 5px 0;
+                width: 100%;
+                border-radius: 5px;
+                color: red; 
+                font-size: 15px;
+                background-color: #24292E ;
+                padding: 8px;
+            }
+            .updateButton {
+                margin: 5px 0;
+                width: 100%;
+                border-radius: 5px;
+                color: white; 
+                font-size: 15px;
+                background-color: #24292E;
+                padding: 8px;
+            }
+            .rentButton {
+                margin: 5px 0;
+                width: 100%;
+                border-radius: 5px;
+                color: white; 
+                font-size: 15px;
+                background-color: #24292E;
+                padding: 8px;
+            }
+
+        }
+
+       
+        img{
+            height: 200px;
+            max-width: 300px;
+            margin-bottom: 0;
+        }
+
+        .line {
+            border: 1px solid black;
+        }
+        p {
+            text-align: left;
+            margin: 15px 0;
+        }
+        h4{
+            text-align: left;
+            margin: 0;
+        }
+
+        h3{
+            text-align: left;
+            margin: 10px 0;
+        }
+    }
+
+}
+
+//post
+.postContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.postForm {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px 50px 50px 50px;
+    border-radius: 5px;
+
+    input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #d1d5da;
+        border-radius: 3px;
+        box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+        margin: 10px 0 10px 0;
+    }
+}
+
+.postButton {
+    border-radius: 5px;
+    color: white; 
+    font-size: 15px;
+    background-color: #28A745;
+    margin-top: 15px;
+    padding: 8px;
+}
+
+
+.accountContainer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    // height: 300px;
+    width: 600px;
+
+    .accountInfo{
+        width: 100%;
+        height: 100%;
+
+        .accountDetails{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            border: 1px solid black;
+
+            img {
+                width: 125px;
+                height: 125px;
+                border-radius: 50%
+            }
+
+            h1{
+
+            }
+            h2 {
+
+            }
+        }   
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+  a.active {
+    color: #D24050;
+    text-decoration: underline;
+}
